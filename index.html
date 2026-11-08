@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Study Scheduler</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <h1>Smart Study Scheduler</h1>
+  <p>Add your tasks and deadlines. The app builds your day-by-day study schedule.</p>
+  <div class="stripe"></div>
+</header>
+
+<main>
+
+  <section class="panel p1">
+    <h2><span class="badge">1</span> Add your tasks</h2>
+    <p class="hint">Fill in up to 3 tasks at once. Tap "Add another task" for more.</p>
+    <div id="rows"></div>
+    <div class="actions">
+      <button id="moreRow" class="btn light">+ Add another task</button>
+      <button id="addAll" class="btn">Save all tasks</button>
+    </div>
+  </section>
+
+  <section class="panel p2">
+    <h2><span class="badge">2</span> Your task list</h2>
+    <div id="stats" class="stats"></div>
+    <div id="list"></div>
+  </section>
+
+  <section class="panel p3">
+    <h2><span class="badge">3</span> Build my schedule</h2>
+    <div class="planbar">
+      <div>
+        <label for="free">Free study hours per day</label>
+        <input id="free" type="number" min="1" max="16" step="0.5" value="5">
+      </div>
+      <button id="plan" class="btn">Build my schedule</button>
+    </div>
+    <div id="result"></div>
+  </section>
+
+</main>
+
+<footer class="foot">Smart Study Scheduler | AICT Project 2</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

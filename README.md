@@ -16,4 +16,4 @@ HTML, CSS and JavaScript
 Download all three files (index.html, style.css, script.js) into one folder and open index.html in Chrome.
 
 ## Made by
-Meral Ahmed
+Meral Ahmed.
